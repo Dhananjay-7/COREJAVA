@@ -15,6 +15,7 @@ public class CustomStream {
                   .reduce(0, (n1,n2) -> n1+n2);
 
       System.out.println(result+"->list data after stream");
+      
                   
 
       // Stream<Integer> stream = list.stream();
