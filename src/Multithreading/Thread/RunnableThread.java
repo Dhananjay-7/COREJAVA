@@ -32,7 +32,6 @@ public class RunnableThread {
 
       Thread t1 = new Thread(obj1);
       Thread t2 = new Thread(obj2);
-      new Thread().run();
       t1.start();
       try { Thread.sleep(10); } catch (Exception e) {}
       t2.start();
